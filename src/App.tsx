@@ -2,13 +2,16 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
+import Navbar from "./components/navbar"
+
+
 function App() {
   
 
   return (
     <>
-      <div>
-        app
+      <div className=" bg-gray-20">
+       <Navbar />
       </div>
     </>
   )
